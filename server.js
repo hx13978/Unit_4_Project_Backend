@@ -1,18 +1,15 @@
 const express = require('express');
 const app = express();
-//const methodOverride = require('method-override');
+app.use(express.json());
 
-app.use(express.static('public'));
-
-//app.use(methodOverride('_method'));
-
-app.use("/list", require("./controllers/listController.js"));
 //////MIDDLEWARE ENDS
 
 //HOME
 app.get('/', (req, res) => {
-    res.render('users/home.ejs')
+    res.json('express api is working')
 });
+
+app.use("/activities", require("./controllers/listController.js"));
 
 app.listen(process.env.PORT, () => {
     console.log('Nodemon is listening');

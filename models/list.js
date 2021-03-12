@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   };
   List.init({
-    date: DataTypes.DATE,
+    date: DataTypes.STRING,
     name: DataTypes.STRING,
     activity: DataTypes.STRING,
     time: DataTypes.STRING
