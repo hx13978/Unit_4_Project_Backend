@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require('express');
 const app = express();
 app.use(express.json());
@@ -6,7 +7,7 @@ app.use(express.json());
 
 //HOME
 app.get('/', (req, res) => {
-    res.json('express api is working')
+    res.json({ message: "express api app is working" });
 });
 
 app.use("/activities", require("./controllers/listController.js"));
