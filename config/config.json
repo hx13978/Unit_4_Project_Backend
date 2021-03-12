@@ -1,0 +1,8 @@
+{
+  "development": {
+    "username": "HX13978",
+    "database": "family_planner",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

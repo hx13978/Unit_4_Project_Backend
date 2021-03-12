@@ -1,0 +1,27 @@
+{
+  "name": "unit_4_project_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hx13978/Unit_4_Project_Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hx13978/Unit_4_Project_Backend/issues"
+  },
+  "homepage": "https://github.com/hx13978/Unit_4_Project_Backend#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "sequelize": "^6.5.0",
+    "sequelize-cli": "^6.2.0"
+  }
+}
