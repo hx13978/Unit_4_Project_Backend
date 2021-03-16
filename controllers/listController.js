@@ -3,7 +3,6 @@ const router = express.Router();
 
 const ListModel = require("../models").List;
 
-
 //GET ALL ACTIVITIES
 router.get("/", async (req, res) => {
     console.log("get route")
@@ -13,7 +12,6 @@ router.get("/", async (req, res) => {
 });
 
 //ADD AN ACTIVITY
-// CREATE A NEW USER
 router.post("/", async (req, res) => {
     let activity = await ListModel.create(req.body);
     res.json({ activity });
