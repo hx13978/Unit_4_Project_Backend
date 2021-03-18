@@ -13,7 +13,7 @@ Upon loading the website, the user will be able to view their current Activity L
 - Sequelize
 - CRUD -Create, Read, Delete
 
-### Deployed App
+### GitHub Links
 
 [Family/User Activity Planner-Backend](https://github.com/hx13978/Unit_4_Project_Backend)
 
