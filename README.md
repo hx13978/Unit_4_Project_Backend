@@ -8,7 +8,6 @@ Upon loading the website, the user will be able to view their current Activity L
 
 ### Technologies Used
 
-- HTML
 - Javascript
 - MVC - Models, Views, Controllers
 - Sequelize
