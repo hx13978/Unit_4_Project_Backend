@@ -9,11 +9,10 @@ Upon loading the website, the user will be able to view their current Activity L
 ### Technologies Used
 
 - HTML
-- CSS, Responsive Web Design
 - Javascript
 - MVC - Models, Views, Controllers
 - Sequelize
-- CRUD -Create, Read, Update, Delete
+- CRUD -Create, Read, Delete
 
 ### Deployed App
 
